@@ -36,19 +36,19 @@
       margin-bottom: 30px;
     }
 
-    .download-btn {
-        background-color: #333;
-        color: #fff;
-        padding: 14px 30px;
-        font-size: 16px;
-        text-decoration: none;
-        border-radius: 8px;
-        transition: background 0.3s ease;
-        margin-bottom: 100px; 
+    .download-btn, .presentation-btn {
+      background-color: #333;
+      color: #fff;
+      padding: 14px 30px;
+      font-size: 16px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+      display: inline-block;
+      margin: 10px 0;
     }
 
-
-    .download-btn:hover {
+    .download-btn:hover, .presentation-btn:hover {
       background-color: #555;
     }
 
@@ -63,9 +63,15 @@
   <div class="container">
     <h1>XPenditure</h1>
     <p>Track your expenses easily.<br>Click below to download the installer:</p>
+
     <a class="download-btn" href="https://github.com/Ananya600/XPenditure/releases/download/v1.0/XPenditureInstaller.exe" download>
       Download XPenditure
     </a>
+    
+    <a class="presentation-btn" href="https://xpenditure.my.canva.site/xpenditure-kareena" target="_blank">
+      View Presentation
+    </a>
+
     <p class="version">Version 1.0 · Windows Installer</p>
   </div>
 </body>
